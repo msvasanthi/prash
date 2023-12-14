@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
 
-        features = {"src//test//resources//features"},
+        features = {"src/test/resources/features"},
 
         glue = {"stepDefinitions", "CommonActions"},
 
@@ -18,8 +18,8 @@ import org.junit.runner.RunWith;
 
                 "timeline:test-output-thread/"
 
-        },
-        tags="@Registration_DatatableNoHeader"
+        }
+
 
 
 )
