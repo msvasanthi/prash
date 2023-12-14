@@ -24,6 +24,7 @@ public class DriverManager {
     //
 
     //second change in vasanthi
+
     public static synchronized WebDriver getdriver(){
         return localdriver.get();
     }
