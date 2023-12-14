@@ -20,6 +20,7 @@ public class DriverManager {
     public static ThreadLocal<WebDriver> localdriver = new ThreadLocal<>();
 
 //change add in vasanthigit stuts
+    // commit and push same time
     public static synchronized WebDriver getdriver(){
         return localdriver.get();
     }
