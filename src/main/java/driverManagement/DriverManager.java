@@ -22,6 +22,8 @@ public class DriverManager {
 //change add in vasanthigit stuts
     // commit and push same time
     //
+
+    //second change in vasanthi
     public static synchronized WebDriver getdriver(){
         return localdriver.get();
     }
