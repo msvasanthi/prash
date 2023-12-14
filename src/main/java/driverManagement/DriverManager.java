@@ -19,7 +19,7 @@ public class DriverManager {
     WebDriver driver;
     public static ThreadLocal<WebDriver> localdriver = new ThreadLocal<>();
 
-
+//change add in vasanthigit stuts
     public static synchronized WebDriver getdriver(){
         return localdriver.get();
     }
